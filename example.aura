@@ -1,0 +1,14 @@
+// Simple Aura Example
+{module} Example
+
+  {fun} int a, int b -> add int
+    {return} a + b {/return}
+  {/fun}
+
+  {fun} main int
+    int x(5), y(10)
+    x + y -> result
+    result -> out
+  {/fun}
+
+{/module}
